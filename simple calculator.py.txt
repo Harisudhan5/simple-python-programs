@@ -1,0 +1,59 @@
+print("******************************************************************")
+print("                    SIMPLE CALCULATOR")
+print("******************************************************************")
+print("IN THE CHOICE")
+print("ENTER 0 FOR ADDITION")
+print("ENTER 1 FOR SUBTRACTION")
+print("ENTER 2 FOR MULTIPLICATION")
+print("ENTER 3 FOR DIVISION")
+print("ENTER 4 FOR POWERS,In powers second number is taken as power of first number")
+print("ENTER 5 FOR ROOTS,in roots second number is taken as root of first numnber")
+print("******************************************************************")
+c=int(input("ENTER THE CHOICE FOR OPERATION : "))
+a=float(input("ENTER FIRST NUMBER : "))
+b=float(input("ENTER SECOND NUMBER : "))
+print("******************************************************************")
+
+def add():
+    return a+b
+def sub():
+    return a-b
+def mul():
+    return a*b
+def div():
+    return a/b
+def pow():
+    return a**b
+def root():
+    return a**(1/b)
+if(c==0):
+    print("THE SUM OF TWO NUMBERS IS :",add())
+elif(c==1):
+    print("THE DIFFERENCE BETWEEN TWO NUMBERS IS :",sub())
+elif(c==2):
+    print("THE PRODUCT OF TWO NUMBERS IS :", mul())
+elif(c==3):
+    print("THE SOLUTION IS :",div())
+elif(c==4):
+    print("THE SOLUTION IS :",pow())
+elif(c==5):
+    print("THE SOLUTION IS :",root())
+else:
+    print("=================================") 
+    print("THIS IS A SIMPLE CALCULATOR")
+    print("=================================")
+    
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

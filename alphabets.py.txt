@@ -1,0 +1,19 @@
+#creating an empty list 
+a=[]
+#getting length of list and list values from user using append()
+n=int(input("Enter length of list : "))
+for i in range(n):
+    a.append(input("Enter the list values : "))
+print("LIST = ",a)
+print("*****Arranging the elements in alphabetical order*****")
+#arranging in alphabetic order using min()
+for k in range(n):
+    print("*",min(a))
+    a.remove(min(a))
+print("*****THE END*****")   
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Securit
