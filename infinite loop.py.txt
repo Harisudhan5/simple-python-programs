@@ -1,0 +1,15 @@
+#infinite loop using while
+#enter -1 to stop program and it wil tell you which try you entered -1
+print("****THIS IS AN INFINITE LOOP STOP IT WITH -1 ****")
+n=int(input("enter an integer : "))
+if(n==n):
+  count=1
+  while(n==n):
+      if(n==-1):
+          print("   You have entered -1 so the program exits")
+          break
+      else:
+          n=int(input("enter enter an integer : "))
+          count=count+1
+          continue
+print("   You have entered -1 at the try of ",count)
